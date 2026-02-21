@@ -8710,6 +8710,42 @@ scroll-seamless.border-gradient-alpha:after {
   animation: bounceScale 300ms cubic-bezier(0, 0, 0.3, 1);
 }
 
+.header-main .header-right .localization-group {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-inline-end: 0.5rem;
+}
+
+.header-main .header-right .localization-group .localization-details summary {
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 1.1rem;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header-main .header-right .localization-group .localization-details summary:after {
+  display: none;
+}
+
+.header-main .header-right .localization-group .localization-details summary .icon {
+  width: 1.5rem;
+}
+
+.header-main .header-right .localization-group .localization-details summary .caret-icon {
+  width: 0.625rem;
+}
+
+.header-main .header-right .localization-group .localization-details .details-disclosure-content {
+  inset-block-start: 100%;
+  inset-block-end: auto;
+  margin-block-start: 0.5rem;
+  min-width: 10rem;
+}
+
 .header-main .header-right .cart-count-bubble {
   position: relative;
 }

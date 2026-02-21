@@ -61,6 +61,22 @@
   if enable_transparent_header_index or enable_transparent_header_collections or enable_transparent_header_collections_list or enable_transparent_header_search or enable_transparent_header_pages
     assign enable_transparent_header = true
   endif
+
+  assign show_localization = false
+  assign show_country = false
+  assign show_language = false
+
+  if section.settings.show_country and localization.available_countries.size > 1
+    assign show_country = true
+  endif
+
+  if section.settings.show_language and localization.available_languages.size > 1
+    assign show_language = true
+  endif
+
+  if show_country or show_language
+    assign show_localization = true
+  endif
 %}
 
 <sticky-header
@@ -186,6 +202,16 @@
         </div>
       {%- endif -%}
       <div class="header-right">
+        {%- if show_localization -%}
+          <div class="localization-group small-hide medium-hide">
+            {%- if show_country -%}
+              {% render 'localization-country', section_id: section.id %}
+            {%- endif -%}
+            {%- if show_language -%}
+              {% render 'localization-language', section_id: section.id %}
+            {%- endif -%}
+          </div>
+        {%- endif -%}
         <modal-opener
           class="search-drawer-opener-button{% if section.settings.menu_position == 'bottom' %} large-up-hide{% endif %}"
           role="button"
@@ -367,6 +393,23 @@
         }
       ],
       "default": "logo-line"
+    },
+    {
+      "type": "header",
+      "content": "t:sections.footer.settings.header_localization.content",
+      "info": "t:sections.footer.settings.header_localization.info"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_country",
+      "label": "t:sections.all.localization.show_country.label",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "show_language",
+      "label": "t:sections.all.localization.show_language.label",
+      "default": true
     },
     {
       "type": "header",
