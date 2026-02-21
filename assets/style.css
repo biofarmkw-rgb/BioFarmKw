@@ -8915,6 +8915,7 @@ scroll-seamless.border-gradient-alpha:after {
   display: grid;
   grid-template-areas: "menu image";
   grid-template-columns: auto 1fr;
+  background: #A3D3E4;
 }
 
 .header-nav .header-menu-categories .menu-secondary-level-wrapper .submenu-list {
@@ -8969,7 +8970,8 @@ scroll-seamless.border-gradient-alpha:after {
 
 .header-nav .header-menu-categories .submenu-list .second-level-item .menu-title {
   display: block;
-  font-size: 0.75rem;
+  font-size: 1.25rem;
+  color: #000;
   opacity: 1;
 }
 
@@ -8980,6 +8982,7 @@ scroll-seamless.border-gradient-alpha:after {
 .header-nav .header-menu-categories .submenu-list .third-level-item {
   padding-block: 0.5rem;
   padding-inline: 0;
+  font-size: 1.1rem;
 }
 
 .header-menu-nav {
@@ -9103,6 +9106,7 @@ scroll-seamless.border-gradient-alpha:after {
   border-radius: 0;
   box-shadow: 0 0.5rem 0.5rem rgba(var(--color-shadow), 0.2);
   overflow-y: auto;
+  background: #A3D3E4;
   --gap-column: 2rem;
   --gap-row: 2rem;
 }
@@ -9120,6 +9124,16 @@ scroll-seamless.border-gradient-alpha:after {
 .header-menu-nav .menu-list .header-mega-submenu .mega-menu-list .mega-menu-item .list-menu-item {
   padding-block: 0.25rem;
   padding-inline: 0;
+  font-size: 1.2rem;
+}
+
+.header-menu-nav .menu-list .header-mega-submenu .mega-menu-list .mega-menu-item .mega-links-title {
+  font-size: 1.4rem;
+  color: #000;
+}
+
+.header-menu-nav .menu-list .header-mega-submenu .mega-menu-list .mega-menu-item a {
+  color: #000;
 }
 
 .header-menu-nav .menu-list .header-mega-submenu .mega-menu-list .mega-menu-item.column-2 {
@@ -9278,11 +9292,17 @@ scroll-seamless.border-gradient-alpha:after {
   padding-block: 1rem;
   padding-inline: 0;
   box-shadow: 0 0 1rem rgba(var(--color-shadow), 0.2);
+  background: #A3D3E4;
 }
 
 .header-menu-nav .menu-list .header-submenu-list .menu-item {
   padding-block: 0.5rem;
   padding-inline: 2rem;
+  font-size: 1.2rem;
+}
+
+.header-menu-nav .menu-list .header-submenu-list .menu-item a {
+  color: #000;
 }
 
 .header-menu-nav .menu-list .header-second-menu-list {
