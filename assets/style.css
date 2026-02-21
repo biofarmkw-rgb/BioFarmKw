@@ -8784,8 +8784,14 @@ scroll-seamless.border-gradient-alpha:after {
   padding-inline: 2rem;
   background: #A3D3E4;
   border-radius: 0.25rem 0.25rem 0 0;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: #000;
+  transition: background 300ms ease;
+}
+
+.header-nav .header-menu-categories .categories-menu-button:hover {
+  background: #8FC9DD;
+  /* Slightly darker shade for hover effect */
 }
 
 .header-nav .header-menu-categories .icon-menu {
@@ -8857,8 +8863,14 @@ scroll-seamless.border-gradient-alpha:after {
   align-items: center;
   gap: 0.875rem;
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   color: #000;
+  transition: background 300ms ease;
+}
+
+.header-nav .header-menu-categories .menu-list .first-level-item:hover .menu-link,
+.header-nav .header-menu-categories .menu-list .first-level-item:hover .first-level-link {
+  background: #A3D3E4;
 }
 
 .header-nav .header-menu-categories .menu-list .first-level-summary .menu-link .icon,
@@ -9043,11 +9055,20 @@ scroll-seamless.border-gradient-alpha:after {
 .header-menu-nav .menu-list .header-menu-first-level .first-level-link,
 .header-menu-nav .menu-list .header-menu-first-level .first-level-summary a {
   padding-block: 1rem;
+  padding-inline: 1rem;
   display: flex;
   align-items: center;
   gap: 0.5rem;
   font-weight: 500;
-  font-size: 1.25rem;
+  font-size: 1.4rem;
+  transition: background 300ms ease;
+}
+
+.header-menu-nav .menu-list .header-menu-first-level:hover .first-level-link,
+.header-menu-nav .menu-list .header-menu-first-level:hover .first-level-summary a {
+  background: #A3D3E4;
+  color: #000;
+  border-radius: 4px;
 }
 
 .header-menu-nav .menu-list .header-menu-first-level .first-level-link .media,
