@@ -8782,9 +8782,10 @@ scroll-seamless.border-gradient-alpha:after {
   width: 22rem;
   padding-block: 1rem;
   padding-inline: 2rem;
-  background: rgba(var(--color-foreground), 0.1);
+  background: #A3D3E4;
   border-radius: 0.25rem 0.25rem 0 0;
-  font-size: 1.15rem;
+  font-size: 1.3rem;
+  color: #000;
 }
 
 .header-nav .header-menu-categories .icon-menu {
@@ -8809,6 +8810,7 @@ scroll-seamless.border-gradient-alpha:after {
   width: 22rem;
   padding-block: 1rem;
   padding-inline: 0;
+  background: #A3D3E4;
   box-shadow: 0 0.5rem 0.5rem 0 rgba(var(--color-shadow), 0.2);
   pointer-events: auto;
 }
@@ -8855,7 +8857,8 @@ scroll-seamless.border-gradient-alpha:after {
   align-items: center;
   gap: 0.875rem;
   font-weight: 500;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
+  color: #000;
 }
 
 .header-nav .header-menu-categories .menu-list .first-level-summary .menu-link .icon,
@@ -9044,7 +9047,7 @@ scroll-seamless.border-gradient-alpha:after {
   align-items: center;
   gap: 0.5rem;
   font-weight: 500;
-  font-size: 1.15rem;
+  font-size: 1.25rem;
 }
 
 .header-menu-nav .menu-list .header-menu-first-level .first-level-link .media,
