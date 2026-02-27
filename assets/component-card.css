@@ -315,6 +315,10 @@
   transform: translateX(calc(0.25rem * var(--translate-x-direction)));
 }
 
+.card.collection-card.card--wrapped .card-media img {
+  object-fit: contain;
+}
+
 .card.article-card.card--wrapped .card-content {
   padding-block: 1rem;
   padding-inline: 0;
