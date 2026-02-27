@@ -270,6 +270,13 @@
   margin-block-start: 0.75rem;
 }
 
+.card.product-card .media>img,
+.card.collection-card .media>img {
+  padding: 1.5rem;
+  box-sizing: border-box;
+  object-fit: contain !important;
+}
+
 .card.product-card .card-horizontal-buttons {
   display: none;
   margin-inline-start: auto;
