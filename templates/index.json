@@ -527,7 +527,7 @@
             "card_size": "small",
             "image_ratio": "portrait",
             "text_alignment": "center",
-            "show_card_wrapper": false,
+            "show_card_wrapper": true,
             "color_scheme": "",
             "slider_on_mobile": true
           },
