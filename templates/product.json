@@ -71,6 +71,7 @@
             "dropdown_threshold": 10,
             "enable_first_swatch_image": false,
             "swatch_size": "medium",
+            "round_swatches": false,
             "auto_scroll_to_top": false
           }
         },
@@ -161,10 +162,13 @@
         "media_position": "left",
         "media_layout": "thumbnail-left",
         "media_size": "small",
-        "media_ratio": "portrait",
+        "thumbnail_size": "small",
+        "media_ratio": "square",
         "media_fit": "cover",
+        "enable_scale_image": true,
         "image_zoom_type": "zoom-hold",
-        "image_zoom_ratio": 1.5,
+        "enable_image_magnifier": true,
+        "image_zoom_ratio": 1,
         "enable_slide_smooth": true,
         "hide_variants": true,
         "enable_video_autoplay": false,
@@ -346,7 +350,10 @@
               "blocks": {}
             }
           },
-          "block_order": ["heading_hYpcje", "description_Y7W67A"]
+          "block_order": [
+            "heading_hYpcje",
+            "description_Y7W67A"
+          ]
         },
         "related-products": {
           "type": "_related-products",
@@ -405,7 +412,10 @@
               "blocks": {}
             }
           },
-          "block_order": ["heading_p4jQwk", "description_TxeY6M"]
+          "block_order": [
+            "heading_p4jQwk",
+            "description_TxeY6M"
+          ]
         },
         "recently-viewed": {
           "type": "_recently-viewed",
