@@ -37,7 +37,7 @@
         "collection_description_EBeURY"
       ],
       "settings": {
-        "enable_full_width": true,
+        "enable_full_width": false,
         "height": "small",
         "color_scheme": "scheme-3",
         "show_collection_image": true,
