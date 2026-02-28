@@ -43,7 +43,7 @@
         "show_collection_image": true,
         "default_collection_image": "shopify://shop_images/can-you-generate-a-mixed-fruit-image-like-name-leafy-veg-fruity-veg-roots-salads-dried-leaf.png",
         "background_image_opacity": 100,
-        "image_behavior": "none",
+        "image_behavior": "zoom-in",
         "content_position": "middle-center",
         "content_width": "small",
         "text_alignment": "center",
